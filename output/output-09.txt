@@ -1,0 +1,12 @@
+BFS
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 853.9174000002276, Memory (MB): -65.0234375
+Not Found
+DFS
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 779.937400000108, Memory (MB): 2.87890625
+Not Found
+UCS
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 1395.8278999998583, Memory (MB): 3.640625
+Not Found
+A*
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 1506.673899999896, Memory (MB): 11.171875
+Not Found
