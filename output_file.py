@@ -3,8 +3,12 @@ from Search_algorithm.dfs import dfs
 from Search_algorithm.ucs import ucs
 from Search_algorithm.a_star import a_star
 
+import gc
+
 
 def output(maze, outputname, solutionname):
+    gc.collect()
+
     # BFS
     result_bfs = bfs(maze.Ares_position, maze.stones_positions,
                      maze.grid, maze.weights, maze.switch_positions)
@@ -15,6 +19,8 @@ def output(maze, outputname, solutionname):
     time *= 1000
     output_bfs = "BFS\n" + "Steps: " + str(step) + ", Cost: " + str(cost) + ", Node: " + str(
         node) + ", Time (ms): " + str(time) + ", Memory (MB): " + str(memory) + "\n" + solution_path + "\n"
+
+    gc.collect()
 
     # DFS
     result_dfs = dfs(maze.Ares_position, maze.stones_positions,
@@ -27,6 +33,8 @@ def output(maze, outputname, solutionname):
     output_dfs = "DFS\n" + "Steps: " + str(step) + ", Cost: " + str(cost) + ", Node: " + str(
         node) + ", Time (ms): " + str(time) + ", Memory (MB): " + str(memory) + "\n" + solution_path + "\n"
 
+    gc.collect()
+
     # UCS
     result_ucs = ucs(maze.Ares_position, maze.stones_positions,
                      maze.grid, maze.weights, maze.switch_positions)
@@ -37,6 +45,8 @@ def output(maze, outputname, solutionname):
     time *= 1000
     output_ucs = "UCS\n" + "Steps: " + str(step) + ", Cost: " + str(cost) + ", Node: " + str(
         node) + ", Time (ms): " + str(time) + ", Memory (MB): " + str(memory) + "\n" + solution_path + "\n"
+
+    gc.collect()
 
     # A*
     result_a_star = a_star(maze.Ares_position, maze.stones_positions,

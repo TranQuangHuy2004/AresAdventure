@@ -1,5 +1,4 @@
 from tkinter import *
-from PIL import Image, ImageTk
 from GUI.set_up_window import setup_window
 
 

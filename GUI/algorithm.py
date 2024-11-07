@@ -6,7 +6,7 @@ from tkinter import *
 from tkinter import messagebox
 import glob
 import os
-import time
+import gc
 
 
 class alg:
@@ -130,3 +130,5 @@ class alg:
         output(maze, outputname, solutionname)
 
         messagebox.showinfo("Notification", "Finished")
+
+        gc.collect()
