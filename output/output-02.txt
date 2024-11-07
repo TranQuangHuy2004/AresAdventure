@@ -1,12 +1,12 @@
 BFS
-Steps: 1, Cost: 11, Node: 3, Time (ms): 0.013299999864102574, Memory (MB): 0.0
+Steps: 1, Cost: 11, Node: 3, Time (ms): 0.011100000392616494, Memory (MB): 0.0
 R
 DFS
-Steps: 1, Cost: 11, Node: 3, Time (ms): 0.008099999831756577, Memory (MB): 0.0
+Steps: 1, Cost: 11, Node: 3, Time (ms): 0.006799999937356915, Memory (MB): 0.0
 R
 UCS
-Steps: 1, Cost: 11, Node: 34, Time (ms): 0.03890000016326667, Memory (MB): 0.0
+Steps: 1, Cost: 11, Node: 34, Time (ms): 0.03619999961301801, Memory (MB): 0.0
 R
 A*
-Steps: 1, Cost: 11, Node: 3, Time (ms): 0.0113999999484804, Memory (MB): 0.0
+Steps: 1, Cost: 11, Node: 3, Time (ms): 0.01739999970595818, Memory (MB): 0.0
 R

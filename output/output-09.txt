@@ -1,12 +1,12 @@
 BFS
-Steps: 0, Cost: 0, Node: 629443, Time (ms): 442.55580000026384, Memory (MB): 49.44140625
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 440.02420000015263, Memory (MB): 49.2265625
 Not Found
 DFS
-Steps: 0, Cost: 0, Node: 629443, Time (ms): 427.14639999985593, Memory (MB): 45.79296875
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 401.83440000009796, Memory (MB): 46.3984375
 Not Found
 UCS
-Steps: 0, Cost: 0, Node: 629443, Time (ms): 775.1401999998961, Memory (MB): 55.14453125
+Steps: 0, Cost: 0, Node: 629443, Time (ms): 741.129600000022, Memory (MB): 55.4921875
 Not Found
 A*
-Steps: 0, Cost: 0, Node: 629443, Time (ms): 862.0154999998704, Memory (MB): 53.3203125
+Steps: 0, Cost: 0, Node: 649789, Time (ms): 847.0354000000953, Memory (MB): 54.4375
 Not Found

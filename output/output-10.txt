@@ -1,12 +1,12 @@
 BFS
-Steps: 28, Cost: 831, Node: 618562, Time (ms): 458.19710000023406, Memory (MB): 56.3125
+Steps: 28, Cost: 831, Node: 618562, Time (ms): 455.31739999978527, Memory (MB): 55.484375
 RdrRuLLLrdrrRRllDDrdLLLLdlUU
 DFS
-Steps: 710, Cost: 4853, Node: 222269, Time (ms): 127.90939999968032, Memory (MB): 6.70703125
+Steps: 710, Cost: 4853, Node: 222269, Time (ms): 135.77540000005683, Memory (MB): 7.8671875
 RRRRdrruLrdddddllllluurrruuLrrrddddllllluurrUrrruulLLDDrrrdddllllluurRRRdrUddllllluurrrururDDlddlllluurruruulLrrrrdddlddrUdllllluurrrruruullllLrrrrrddDlddrUUddllllluurrruruulllldRRRdrdrUdddllllluurrruullluLrrrrrrDDDlddrUdllllluurrruuurDrdDlddrUUddllllluurrruurDDrddllllluurrururrDDllddrrUdlUrUddllllluurruururrdDDLruulldDrddrUdllUrrUddlluUrrUdddllllluurrrUruLrurDDDlddrUdllllluurrruuLrrrdDlddrUUddllllluurrruruulllldRRurrrdDDlddrUdllllluurruuurDrrdDllUluRurrdLLLulldRurDrrrddlddrUdllllluurrrruruulldlDrrrDlddrUUddllluUrruullDrdLrrrUdddllllluuRRRdrruLLrrddllluUrruullDDrruuurDDDlddrUdlluLrrrUddllllluurrrururDDlddlluLrrrdrUUddlllluLrrrrruUdddllllluLrrrrrruullluurrrDDDlddrUdlllllllUrrrrrrrUddllllllluUdrrrrrrruU
 UCS
-Steps: 36, Cost: 647, Node: 1074662, Time (ms): 1363.5666999998648, Memory (MB): 90.51171875
+Steps: 36, Cost: 647, Node: 1074662, Time (ms): 1358.51300000013, Memory (MB): 91.21875
 RdrRurDDDlUruulLLLrrdRRRdddLLLLLdlUU
 A*
-Steps: 36, Cost: 647, Node: 58817, Time (ms): 70.62959999984741, Memory (MB): 1.91796875
+Steps: 36, Cost: 647, Node: 43260, Time (ms): 60.43070000032458, Memory (MB): 1.44921875
 RdrRurDDDlUruulLLLrrdRRRdddLLLLLdlUU

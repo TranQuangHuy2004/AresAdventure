@@ -5,12 +5,35 @@ import psutil
 
 
 def heuristic(stones_pos, stone_weights, switch_pos):
-    # h = sum(the Manhattan distance between each stones to the nearest switch * (its weight + 1))
+    # h = sum(the Manhattan distance between each stone to its nearest available switch * (its weight + 1))
+    # prioritize heaviest stone
     h = 0
-    for i, stone in enumerate(stones_pos):
-        min_dis = min(abs(stone[0] - switch[0]) + abs(stone[1] - switch[1])
-                      for switch in switch_pos)
-        h += min_dis * (stone_weights[i] + 1)
+
+    list_switch = list(switch_pos)
+    list_stones_pos = list(stones_pos)
+    list_weights = list(stone_weights)
+
+    # Combine the lists and sort by stone_weights in decreasing order
+    combined = sorted(zip(list_weights, list_stones_pos), reverse=True)
+
+    # Unpack the sorted result back into individual lists
+    list_weights, list_stones_pos = zip(*combined)
+    list_weights = list(list_weights)
+    list_stones_pos = list(list_stones_pos)
+
+    for i, stone in enumerate(list_stones_pos):
+        min_dis = float('inf')
+        nearest_switch = None
+
+        for switch in list_switch:
+            dis = abs(stone[0] - switch[0]) + abs(stone[1] - switch[1])
+            if dis < min_dis:
+                min_dis = dis
+                nearest_switch = switch
+
+        list_switch.remove(nearest_switch)
+
+        h += min_dis * (list_weights[i] + 1)
 
     return h
 
